@@ -1,4 +1,5 @@
-let cards = [] 
+let cards = [undefined] 
+let card = getRandomCard()
 let sum = 0
 let hasBlackJack = false
 let isAlive = false
@@ -72,7 +73,7 @@ function renderGame() {
  //I overlooked the NB of "stopping" the game once the player is out/gets black jack but it's actually very necessary cause then you can keep going for no reason
  function newCard() {
     if (isAlive === true && hasBlackJack === false) {
-        let card = getRandomCard()
+        
      sum = sum + card 
      cards.push(card)
      renderGame()

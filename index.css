@@ -1,11 +1,12 @@
 body {
     
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: darkgreen;
+    background-image: url(blackjack-table.jpg);
     text-align: center;
     color: white;
     font-weight: bold;
     font-size: 1em;
+    background-size: cover;
 }
 
 h1 {
